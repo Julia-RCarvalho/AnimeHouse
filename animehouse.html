@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assista Animes Online</title>
+  <link rel="stylesheet" href="anime.css">
+</head>
+<body>
+
+  <!-- Cabeçalho estruturado com Flexbox -->
+  <header class="header">
+    <h1>Anime House</h1>
+    <nav class="nav">
+      <div class = "search-box">
+        <input type="text" placeholder="Pesquisar...">
+        <button type="submit">🔍</button>
+      </div>
+
+      <a href="animehouse.html">Início</a>
+      <a href="#">Em Breve</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <section class="hero">
+      <h2>Destaques do Mês</h2>
+      <p>Clique no pôster de qualquer anime para ver a sinopse e detalhes completos.</p>
+    </section>
+
+    <!-- Grade de 3 Filmes usando CSS Grid -->
+    <section class="movie-grid">
+      
+      <!-- Filme 1 -->
+      <article class="movie-card">
+        <a href="onepiece.html">
+          <img src="https://dbzbooks.com/cdn/shop/files/75799fcb17e91c774e9fe35b72c0e0b98491d67c25c3c1dcf729357b90a3a3bc.jpg?v=1723056080" alt="Pôster do Anime One Piece">
+        </a>
+        <div class="movie-info">
+          <div class = "movie-header-info">
+            <h3>One Piece</h3>
+            <span class="age-rating fourteen">14</span>
+          </div>
+         <p>Aventura • Ação</p>
+        </div>
+      </article>
+
+      <!-- Filme 2 -->
+      <article class="movie-card">
+        <a href="Apotecaria.html">
+          <img src="https://m.media-amazon.com/images/M/MV5BNGM1MTE4N2ItNWMxYS00MjhjLTllODYtYTViNDcxZGMxNjBkXkEyXkFqcGc@._V1_.jpg" alt="Pôster do Filme Mistério na Noite">
+        </a>
+        <div class="movie-info">
+          <div class = "movie-header-info">
+            <h3>Diários de uma Apotecária</h3>
+            <span class="age-rating fourteen">14</span>
+          </div>
+          <p>Mistério • Investigação</p>
+        </div>
+      </article>
+
+      <!-- Filme 3 -->
+      <article class="movie-card">
+        <a href="gachiakuta.html">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5JhS9PSgYtId84PLh26mA6YxVXtMBfhRPYbDiOAiTG3K0YhqQLEjg48&s=10" alt="Pôster do Filme O Grande Drama">
+        </a>
+        <div class="movie-info">
+          <div class = "movie-header-info">
+            <h3>Gachiakuta</h3>
+            <span class="age-rating fourteen">16</span>
+          </div>
+          <p>Aventura • Ação</p>
+        </div>
+      </article>
+
+      
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>&copy; 2026 Anime House. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
